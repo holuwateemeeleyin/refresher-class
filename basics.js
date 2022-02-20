@@ -1,3 +1,15 @@
+// Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
+// Call the function with two numbers as arguments.
+function functionWithArgs(firstNumber, secondNumber) {
+    const sum = firstNumber + secondNumber
+    console.log('sum is: ', sum);
+}
+
+functionWithArgs(1,5)
+functionWithArgs(5,9)
+
+
+
 // push
 //  to add strings, numbers or even array
 const myArray = ["2", 7, "dog"];
