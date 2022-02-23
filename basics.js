@@ -8,6 +8,40 @@ function functionWithArgs(firstNumber, secondNumber) {
 functionWithArgs(1,5)
 functionWithArgs(5,9)
 
+// Create a function timesFive that accepts one argument, 
+// multiplies it by 5, and returns the new value.
+
+function timesFive(num) {
+    return num * 5
+}
+
+const answer =  timesFive(6);
+
+console.log('answer : ', answer );
+
+
+// /Using Queue
+// Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+
+// Add the number to the end of the array, then remove the first element of the array.
+
+// The nextInLine function should then return the element that was removed.
+
+function nextInLine(arr, item) {
+    // Only change code below this line
+    arr.push(item)
+    var remove = arr.shift()
+    return remove;
+    // Only change code above this line
+  }
+  
+  // Setup
+  const testArr = [1, 2, 3, 4, 5];
+  
+  // Display code
+  console.log("Before: " + JSON.stringify(testArr));
+  console.log(nextInLine(testArr, 6));
+  console.log("After: " + JSON.stringify(testArr));
 
 
 // push
